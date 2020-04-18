@@ -21,5 +21,5 @@ pipeline
 	{
 	sh 'sudo chmod 777 install.sh'
 	sh './install.sh'
-	sh 'sudo cp index.html /var/www/html/index.html'
+	sh 'sudo cp index.html /var/www/http/index.html'
 	}}}}
